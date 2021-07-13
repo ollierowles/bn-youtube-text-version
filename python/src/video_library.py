@@ -43,3 +43,7 @@ class VideoLibrary:
             does not exist.
         """
         return self._videos.get(video_id, None)
+
+    @property
+    def videos(self):
+        return self._videos
